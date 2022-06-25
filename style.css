@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: -585px -350px, 620px 520px;
+}
+#box {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 400px;
+    margin-bottom: 15px;
+}
+.image2 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: solid white 6px;
+    position: relative;
+    top: -60px;
+
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.name span{
+    opacity: 0.6;
+    font-weight: lighter;
+    color: darkgray;
+}
+.name p{
+    opacity: 0.6;
+    color: darkgray;
+    font-size: 14px;
+    padding: 15px;
+}
+hr{
+    color: gray;
+}
+.footer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.number {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.word {
+    font-size: 14px;
+    opacity: 0.6;
+    color: darkgray;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
